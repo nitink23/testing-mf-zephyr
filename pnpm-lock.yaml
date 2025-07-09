@@ -12,10 +12,10 @@ importers:
         specifier: ^0.8.9
         version: 0.8.12(@rspack/core@1.2.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)(webpack@5.99.9)
       react:
-        specifier: ^19.0.0
+        specifier: ^19.1.0
         version: 19.1.0
       react-dom:
-        specifier: ^19.0.0
+        specifier: ^19.1.0
         version: 19.1.0(react@19.1.0)
       zephyr-rspack-plugin:
         specifier: ^0.0.50
@@ -34,10 +34,10 @@ importers:
         specifier: ^4.0.3
         version: 4.1.10
       '@types/react':
-        specifier: ^19.0.0
+        specifier: ^19.1.0
         version: 19.1.8
       '@types/react-dom':
-        specifier: ^19.0.0
+        specifier: ^19.1.0
         version: 19.1.6(@types/react@19.1.8)
       autoprefixer:
         specifier: ^10.1.0

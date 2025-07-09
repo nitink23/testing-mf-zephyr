@@ -78,7 +78,11 @@ export default withZephyr()({
     new rspack.HtmlRspackPlugin({
       template: "./index.html",
     }),
-    new ModuleFederationPlugin(mfConfig),
+    new ModuleFederationPlugin({
+      ...mfConfig,
+      dts: false,
+      },
+    ),
     isDev ? new RefreshPlugin() : null,
   ].filter(Boolean),
   optimization: {

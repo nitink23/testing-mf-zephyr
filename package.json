@@ -13,8 +13,8 @@
     "@rspack/cli": "~1.2.0",
     "@rspack/core": "~1.2.0",
     "@rspack/plugin-react-refresh": "~1.0.1",
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
     "autoprefixer": "^10.1.0",
     "cross-env": "^7.0.3",
     "css-loader": "^7.1.2",
@@ -28,8 +28,8 @@
   },
   "dependencies": {
     "@module-federation/enhanced": "^0.8.9",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "zephyr-rspack-plugin": "^0.0.50"
   },
   "zephyrDependencies": {

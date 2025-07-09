@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { RemoteButton, RemoteCard } from "./components";
+import { RemoteButton, RemoteCard, TicTacToe } from "./components";
 import "./index.css";
 
 const App = () => (
@@ -10,7 +10,14 @@ const App = () => (
       <div className="text-xl text-gray-600">Framework: react-19</div>
     </div>
     
-    <div className="space-y-6">
+    <div className="space-y-8">
+      {/* Tic Tac Toe Game */}
+      <div className="mb-8">
+        <h2 className="text-2xl font-bold mb-4 text-gray-800">🎮 Fun Tic Tac Toe Game</h2>
+        <TicTacToe className="max-w-md mx-auto" />
+      </div>
+
+      {/* Remote Components Demo */}
       <RemoteCard 
         title="Remote Components Demo" 
         subtitle="These components can be consumed by other applications"
